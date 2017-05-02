@@ -1,14 +1,22 @@
+body {
+    font-family: "Roboto";
+}
+
 /* Home Style */
 
 .landing {
     height: 90vh;
-    background: url("../img/pexels-photo-57851edit.jpg") center;
+    background: url("../img/mountains-nature-man-person.jpg") center;
     background-size:cover;
     margin-left: 0 !important;
 }
 
-.landing, .about, .services, .quote {
+.services, .quote {
     margin-bottom:100px;
+}
+
+#about-anchor, #services-anchor {
+    height:100px;
 }
 
 .about-1, .about-2 {
@@ -166,7 +174,7 @@
 
 /* Navbar */
 
-.navbar.transparent.navbar-fixed-top .navbar-collapse {
+.navbar.navbar-fixed-top.transparent .navbar-collapse {
     border-width: 0;
     -webkit-box-shadow: 0 0;
     box-shadow: 0 0;
@@ -181,11 +189,31 @@
   transition: background-color 200ms linear;
 }
 
-.navar-header #nav-logo {
-    height: 10px;
-    width:10px;
+.flex-nav-header {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.navbar-header #nav-logo a img {
+    height: 40px;
+    width: 40px;
 }
 
 .navbar-header a {
     color:black !important;
+    font-size: 30px;
+}
+
+.navbar-collapse ul li a {
+    color: black !important;
+    margin-right: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.navbar-header, .navbar-collapse ul li a:hover {
+    font-weight:bold;
 }
