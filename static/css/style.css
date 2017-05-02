@@ -1,0 +1,191 @@
+/* Home Style */
+
+.landing {
+    height: 90vh;
+    background: url("../img/pexels-photo-57851edit.jpg") center;
+    background-size:cover;
+    margin-left: 0 !important;
+}
+
+.landing, .about, .services, .quote {
+    margin-bottom:100px;
+}
+
+.about-1, .about-2 {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-1-content, .about-2-content {
+    text-align: center;
+    border:1px solid black;
+    height:40vh;
+    flex:1;
+}
+
+.about-2-icons {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.about-2-icon-box {
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width:30%;
+    margin-top: 20px;
+}
+
+.about-2-icon {
+    background:url("../icons/3d.png") center;
+    background-size:cover;
+    height:30px;
+    width:30px;
+}
+
+.about-1-img {
+    background: url("../img/about-1.jpg") center;
+    background-size: cover;
+    height:40vh;
+    flex:1;
+}
+
+.about-2-img {
+    background:url("../img/about-2.jpg") center;
+    background-size: cover;
+    height:40vh;
+    flex:1;
+}
+
+.services, .quote {
+    display:flex;
+    flex-flow:row wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align:center;
+}
+
+.services-box, .quote-box {
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    justify-content:center;
+    border: 4px solid black;
+    width:30%
+}
+
+.services-title, .quote-title {
+    background-color:black;
+    color:white;
+    width:100%;
+}
+
+.services-content, .quote-content {
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items:center;
+}
+
+#services-icon-1, #services-icon-2, #services-icon-3, #quote-icon-1, #quote-icon-2 {
+    background: url("../icons/3d.png") center;
+    background-size: cover;
+    height:100px;
+    width:100px;
+    margin:50px 0;
+}
+
+.services-btn, .quote-btn {
+    background-color: red;
+    border: 4px solid black;
+    color: white;
+    height:40px;
+    width:80%;
+    text-decoration:none;
+    margin-bottom: 20px;
+}
+
+.services-btn:hover, .quote-btn:hover {
+    text-decoration: none;
+    color:white;
+}
+
+.quote-box {
+    width:40%
+}
+
+.process {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.process-boxs, .process-box-1 {
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    justify-content: space-around;
+}
+
+#process-icon-1, #process-icon-2, #process-icon-3, #process-icon-4 {
+    background: url("../icons/3d.png") center;
+    background-size:cover;
+    height:90px;
+    width:90px;
+}
+
+#process-num-1, #process-num-2, #process-num-3, #process-num-4 {
+    font-weight:bold;
+    border: 2px solid black;
+    padding:10px 15px;
+    border-radius: 100%;
+}
+
+.process-info {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.process-info-header {
+    font-weight:bold;
+    flex: 1;
+}
+
+.process-info-content {
+    flex: 4;
+}
+
+
+/* Navbar */
+
+.navbar.transparent.navbar-fixed-top .navbar-collapse {
+    border-width: 0;
+    -webkit-box-shadow: 0 0;
+    box-shadow: 0 0;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.navar-header #nav-logo {
+    height: 10px;
+    width:10px;
+}
+
+.navbar-header a {
+    color:black !important;
+}
