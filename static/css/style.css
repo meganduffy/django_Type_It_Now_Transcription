@@ -164,45 +164,80 @@ body {
     text-align: center;
 }
 
-.services-box, .quote-box {
+.services-box {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
-    border: 4px solid #50c2a5;
+    justify-content: space-between;
+    border: 7px solid #65c3ba;
+    border-radius: 5px;
     width: 30%;
     background-color:white;
+    min-height: 400px;
+}
+
+.quote-box {
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #65c3ba;
+    width:20%;
+    min-height:50px;
 }
 
 .services-title, .quote-title {
-    background-color: #50c2a5;
+    background-color:  #65c3ba;
     color: white;
     width: 100%;
-    min-height:70px;
+    min-height:50px;
 }
 
 .services-content, .quote-content {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    height:280px;
 }
 
 #services-icon-1, #services-icon-2, #services-icon-3, #quote-icon-1, #quote-icon-2 {
-    background: url("../icons/3d.png") center;
-    background-size: cover;
     height: 100px;
     width: 100px;
-    margin: 50px 0;
+    /*margin: 25px 0 50px 0;*/
+}
+
+#services-icon-1 {
+    background: url("../icons/mail.png") center;
+    background-size: cover;
+}
+
+#services-icon-2 {
+    background: url("../icons/document.png") center;
+    background-size: cover;
+}
+
+#services-icon-3 {
+    background: url("../icons/light-bulb.png") center;
+    background-size: cover;
+}
+
+/*#quote-icon-1, #quote-icon-2 {*/
+    /*background: url("../icons/3d.png") center;*/
+    /*background-size: cover;*/
+/*}*/
+
+.services-content p {
+    color:black;
+    font-weight:bold;
+    width:70%;
 }
 
 .services-btn, .quote-btn {
-    background-color: red;
-    border: 4px solid black;
-    color: white;
+    background-color: white;
+    border: 4px solid #50A6C2;
+    color: #50A6C2;
     height: 40px;
-    width: 80%;
-    text-decoration: none;
     margin-bottom: 20px;
 }
 
